@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+img {
+  max-width: 100%;
+  height: auto; /* Garde le ratio d'aspect de l'image */
+}
 
 .App {
   background-size: cover;
